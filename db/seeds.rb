@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+song = Song.new(title: "Virgin Dirt", album: "The Blackest Beautiful", artist: "letlive.", year: "2013")
+song.save
+song = Song.new(title: "Banshee (Ghost Fame)", album: "The Blackest Beautiful", artist: "letlive.", year: "2013")
+song.save
+song = Song.new(title: "Empty Elvis", album: "The Blackest Beautiful", artist: "letlive.", year: "2013")
+song.save
