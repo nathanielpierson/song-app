@@ -8,7 +8,7 @@ class SongsController < ApplicationController
     render :show
   end
   def create
-    @song = Song.new(
+    @song = Song.create(
       title: params[:title],
       album: params[:album],
       artist: params[:artist],
